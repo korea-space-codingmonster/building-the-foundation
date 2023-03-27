@@ -1,5 +1,8 @@
-#include <stdio.h>
+#include "include.h"
 
-int main(){
-    printf("hello World");
+int     main(void){
+    job();
+    hobby();
+
+    return 0;
 }
