@@ -10,7 +10,7 @@ all : $(TARGET)
 
 $(TARGET) : $(OBJECTS)
 	$(CC) -o $@ $^
-
+# gcc -o intro_exe job.o hobby.o main.o
 clean :
 	rm *.o intro_exe
 
